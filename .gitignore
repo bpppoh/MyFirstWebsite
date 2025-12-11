@@ -1,0 +1,15 @@
+# NetBeans specific
+/nbproject/private/
+/build/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Compiled class files
+*.class
+
+# macOS system files
+.DS_Store
+
+# Misc
+tempCodeRunnerFile.python
