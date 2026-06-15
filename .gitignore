@@ -1,15 +1,19 @@
-# NetBeans specific
-/nbproject/private/
-/build/
-/dist/
-/nbdist/
-/.nb-gradle/
-
-# Compiled class files
+# Java
+build/
+dist/
+nbproject/private/
 *.class
+*.jar
+*.war
 
-# macOS system files
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Config with secrets
+**/dbconfig.properties
+
+# OS
 .DS_Store
-
-# Misc
-tempCodeRunnerFile.python
+Thumbs.db
